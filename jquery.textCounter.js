@@ -24,9 +24,10 @@ jQuery "textareaCounter" plugin
 
     Example usage:
     ---------------------
-    $("textarea").textareaCounter({ limit: 100 });
+    $("textarea").textareaCounter({ limit: 100, type: 'word' });
 
     */
+    
     var options = $.extend(defaults, options);
     
     // get the count
